@@ -1,0 +1,292 @@
+*{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+.m1 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.p1 {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    font-size: larger;
+    text-align: justify !important;
+}
+
+.img {
+    width: 80%;
+    box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+    text-transform: uppercase;
+    background-color: #fbaa1a;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: aliceblue;
+
+}
+
+.a {
+    background: url('https://www.firstfiddle.in/assets/images/bannerabout.jpg');
+    width: 100%;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.c {
+    background: url('https://www.firstfiddle.in/assets/images/outletbanner.png');
+    width: 100%;
+    background-size: cover;
+    margin-top: 30px;
+}
+.box{
+    position: relative;
+}
+.p2 {
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 39px;
+    color: white;
+}
+
+.button2 {
+    background-color: #fbaa1a;
+    color: white;
+    border-radius: 0px;
+    margin-top: 29px;
+    margin-bottom: 112px;
+    border-color: black;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainfooter {
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+
+.fflogo {
+    margin-top: 30px;
+    width: 50%;
+
+
+}
+
+.why {
+    background: url("https://www.firstfiddle.in/assets/images/gamebanner.jpg");
+    width: 100%;
+}
+
+.why p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 39px;
+    color: white;
+    padding: 0 155px;
+}
+
+footer .h2 {
+    font-family: 'prague';
+    font-size: 2 rem;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+footer .p {
+    line-height: 35px;
+    /* letter-spacing: 1px; */
+    /* word-spacing: 1px; */
+    padding-right: 5px;
+    text-align: justify;
+
+}
+.contact1 {
+font-size: 18px;
+color: #fbaa1a;
+font-family: serif;
+}
+
+footer food {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.fab {
+    color: #fbaa1a;
+    
+
+}
+
+.weblogo {
+    width: 65px;
+}
+
+.navbar {
+    background-color: #0000009c;
+}
+
+.navbar li {
+    padding: 0 14px;
+}
+
+.navbar li a {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.navbar li a:hover {
+    color: #fbaa1a;
+}
+
+.moblogo {
+    display: none;
+}
+
+
+.slide-box {
+    justify-content: space-between;
+
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.brand_logos {
+    padding: 5%;
+}
+.carrer1{
+  font-size: 18px;
+}
+
+
+.image {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0%;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    
+}
+
+.team{
+    /* position: absolute; */
+    color: black;
+    text-align: center;
+    left: 0%;
+    right: 0;
+    top: 50%;
+    letter-spacing: 4px;
+}
+.box{
+    position: relative;
+}
+
+.ourstory {
+    font-size: 70px;
+    font-family: 'Cinzel', serif;
+  display: inline;
+
+}
+
+.mob-banner {
+    display: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    margin: 2rem 5rem;
+    box-shadow: 0px 3px 4px 0px #a69191;
+}
+.formfield-container{
+    width: 100%;
+}
+.formfield{
+    width: 100%;
+    height: 42px;
+    padding: 0 2rem;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 0px #a69191;
+    font-weight: 500;
+    border: none;
+    margin-top: 27px;
+}
+.formfield-textarea{
+    height: auto;
+    padding-top: 1rem;
+}
+/* media query starts */
+/* media query starts */
+/* media query starts */
+
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background-color: #FEC926;
+
+    }
+
+    .navbar li a {
+        color: black !important;
+        text-align: center;
+    }
+
+    .c {
+        margin-top: 45px;
+    }
+
+    .banner-margin {
+        display: none;
+        display: flex;
+    }
+
+    .mob-banner {
+        display: block;
+    }
+
+    .ourstory {
+        font-size: 50px;
+        font-family: 'Cinzel', serif;
+        font-weight: 900;
+          display: inline;
+
+    }
+
+    .why p {
+        padding: 0 50px !important;
+    }
+}
+
+/* media query ends */
+/* media query ends */
+/* media query ends */

@@ -1,0 +1,103 @@
+*{
+    
+}
+.a{ 
+    font-family:'prague';
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+
+}
+.img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right:5px ;
+    text-align: justify;
+   margin-bottom: 90px;
+
+}
+.menu{
+    text-transform: uppercase;
+    
+}
+.c{
+background: url('https://www.firstfiddle.in/assets/images/bannerabout.jpg');
+width: 100%;
+background-size: cover;
+ margin-top: 30px;
+}
+.d{
+   padding-top: 20px;
+text-transform: uppercase;
+font-family: 'prague';
+letter-spacing: 3px;
+color: white;
+margin-top: 102px;
+}
+.e{
+line-height: 40px;
+letter-spacing: 1px;
+color: white;
+margin-bottom: 1rem; }
+footer{
+   background: #020306f0;
+padding: 50px;
+color: #fff;
+}
+footer .h2{
+ font-family: 'prague';
+font-size: 2 rem;        
+line-height: 50px;
+letter-spacing: 3px;
+color: #fff;
+}
+footer .p{
+  line-height: 35px;
+letter-spacing: 1px;
+word-spacing: 1px;
+padding-right: 5px;
+text-align: justify;
+
+}
+footer food{
+ padding:15px;
+}
+.weblogo{
+width: 65px;
+}
+.z{
+margin-left: 70%;
+}
+.navbar {
+background: #0000009e !important;
+}
+.navbar-nav li{
+padding: 0 10px;
+}
+.navbar-nav li a{
+color: #fff !important;
+font-weight: 600;
+font-size: 20px;
+}
+.moblogo{
+display: none;
+}
+@media(max-width:768px){
+.weblogo{
+    display: none;
+}
+.moblogo{
+    display: block;
+}
+.navbar{
+    background: #fbac19 !important;
+}
+
+}
